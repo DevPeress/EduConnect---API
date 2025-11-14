@@ -1,1 +1,5 @@
-<Solution />
+<Solution>
+  <Folder Name="/1 - API/">
+    <Project Path="EduConnect/EduConnect.csproj" />
+  </Folder>
+</Solution>
