@@ -1,13 +1,13 @@
 ﻿namespace EduConnect.Properties;
 
-public class Aluno(string matricula, string nome, DateTime nascimento, string turma, string email, string telefone, string status, string media)
+public class Aluno()
 {
-    public string Matricula { get; set; } = matricula;
-    public string Nome { get; set; } = nome;
-    public DateTime DataNascimento { get; set; } = nascimento;
-    public string Turma { get; set; } = turma;
-    public string Email { get; set; } = email;
-    public string Telefone { get; set; } = telefone;
-    public string Status { get; set; } = status;
-    public string MediaNotas { get; set; } = media;
+    public required string Matricula { get; set; }
+    public required string Nome { get; set; }
+    public DateTime DataNascimento { get; set; }
+    public required string Turma { get; set; }
+    public required string Email { get; set; }
+    public required string Telefone { get; set; }
+    public required string Status { get; set; }
+    public required string MediaNotas { get; set; }
 }
