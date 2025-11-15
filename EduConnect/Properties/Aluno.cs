@@ -1,7 +1,10 @@
-﻿namespace EduConnect.Properties;
+﻿using System.ComponentModel.DataAnnotations;
 
-public class Aluno()
+namespace EduConnect.Properties;
+
+public class Aluno
 {
+    [Key]
     public required string Matricula { get; set; }
     public required string Nome { get; set; }
     public DateTime DataNascimento { get; set; }
