@@ -1,57 +1,46 @@
-# EduConnect‑API
+# 🏫 Edu Connect — API
 
-API REST para o **EduConnect**, um sistema para conectar estudantes,
-professores e instituições de ensino.\
-Desenvolvida em **C# / ASP.NET Core**, esta API fornece endpoints para
-gerenciar usuários, cursos, turmas, atividades e recursos educacionais.
+![C#](https://custom-icon-badges.demolab.com/badge/C%23-%23239120.svg?logo=cshrp&logoColor=whit)
+![ASP.NET](https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=fff)
+![SQL Server](https://custom-icon-badges.demolab.com/badge/Microsoft%20SQL%20Server-CC2927?logo=mssqlserver-white&logoColor=white)
 
-------------------------------------------------------------------------
+## Descrição
 
-## 💡 Funcionalidades Principais
+API REST do EduConnect, um sistema desenvolvido para integrar estudantes, professores e instituições de ensino.
+Criada com C# e ASP.NET Core.
 
-------------------------------------------------------------------------
+## 🧰 Tecnologias Utilizadas
 
-## 🧱 Arquitetura do Projeto
+### ⚛️ Framework e Linguagem
+- [C#](https://dotnet.microsoft.com/pt-br/languages/csharp)
+- [ASP.NET Core](https://dotnet.microsoft.com/en-us/apps/aspnet)
+- [Entity Framework Core](https://learn.microsoft.com/pt-br/ef/core)
+- [SQL Server](https://www.microsoft.com/pt-br/sql-server)
 
-    EduConnect‑API/
-    ├── Controllers/         # Endpoints da API
-    ├── Models/              # Modelos de domínio (DTOs, entidades)
-    ├── Services/            # Lógica de negócio
-    ├── Data/                 # Contexto do banco de dados, migrations
-    ├── Migrations/           # Migrations EF Core
-    ├── EduConnect‑API.slnx   # Solução .NET
-    ├── appsettings.json      # Configuração (BD, JWT, etc)
-    └── … outros arquivos de suporte
+## ✨ Funcionalidades
 
-------------------------------------------------------------------------
+- 
 
-## 🔧 Tecnologias
+## ⚙️ Instalação
 
--   .NET / ASP.NET Core\
--   Entity Framework Core\
--   Banco de dados SQL Server
+```bash
+# Clone o repositório
+git clone https://github.com/DevPeress/EduConnect-API.git
+cd EduConnect-API
 
-------------------------------------------------------------------------
+# Configure o appsettings.json
+# → Defina sua connection string para o SQL Server
 
-## 🚀 Como Executar Localmente
+# Execute as migrações
+dotnet ef database update
 
-1.  Clone o repositório:
+# Execute a API
+dotnet run --project EduConnect‑API
+```
 
-    ``` bash
-    git clone https://github.com/DevPeress/EduConnect-API.git
-    cd EduConnect-API
-    ```
+## 🗂 Estrutura do Projeto
 
-2.  Configure o **appsettings.json** e defina a conexão com o banco.
-
-3.  Execute as migrações:
-
-    ``` bash
-    dotnet ef database update
-    ```
-
-4.  Execute a API:
-
-    ``` bash
-    dotnet run --project EduConnect‑API
-    ```
+```
+📁 EduConnect 
+ ┣ 
+```
