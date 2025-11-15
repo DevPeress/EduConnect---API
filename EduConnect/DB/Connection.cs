@@ -1,4 +1,4 @@
-﻿using EduConnect.Properties;
+﻿using EduConnect.Models;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
