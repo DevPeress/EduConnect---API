@@ -17,8 +17,6 @@ Passos para validar as alterações:
 2. ...
 3. ...
 
-*(Inclua prints/gifs se necessário)*
-
 ---
 
 ## 🚨 Tipo de mudança
@@ -28,7 +26,6 @@ Marque o tipo de mudança:
 - [ ] 🐞 Correção de bug (fix)
 - [ ] 🔧 Refatoração (refactor)
 - [ ] 📝 Documentação (docs)
-- [ ] 🎨 Ajustes visuais ou de estilo (style)
 - [ ] 🔄 Manutenção / tarefas internas (chore)
 
 ---
@@ -41,11 +38,3 @@ Antes de enviar o PR, confirme:
 - [ ] Sem warnings importantes
 - [ ] Removido código morto/comentado desnecessário
 - [ ] Atualizada a documentação, se necessário
-
----
-
-## 📎 Issues relacionadas
-Caso este PR esteja ligado a uma issue ou task:
-
-- Closes #ID
-- Relacionado a #ID
